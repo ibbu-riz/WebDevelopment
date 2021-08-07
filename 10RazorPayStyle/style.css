@@ -1,0 +1,31 @@
+body {
+    background-color: #1d1d1d;
+}
+
+header {
+    height: 80vh;
+    /* background-image: url(./cycle-star.jpg); */
+    /* background-color: #02042B; */
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(0, 188, 63, 0.521),
+        rgba(75, 58, 227, 0.541)
+    ),
+    url(./cycle-star.jpg);;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(100% 0, 100% 84%, 73% 99%, 1% 85%, 0 0);
+}
+
+header h1 {
+    color: white;
+    font-size: 75px;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+header p {
+    color: white;
+    font-size: 55px;
+    padding-left: 18%;
+}

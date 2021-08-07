@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+
+:root {
+  color-scheme: light dark;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: #d5d5d5;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  height: 100%;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-top {
+  position: absolute;
+  height: 400px;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.mockup {
+  height: 400px;
+}
+
+.form {
+  width: 100%;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.form-section {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.form-section h1 {
+  font-size: 40px;
+  color: #343333;
+  margin: 25px 0;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 8px;
+  border: 1px solid #a7a7a7;
+  margin-bottom: 15px;
+  width: 100%;
+  margin: 6px 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 20px;
+  color: white;
+  background-color: #f59e2e;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin: 15px 10px 15px 0;
+}
+
+.btn-submit {
+  margin-left: 10px;
+}
+
+.btn:hover {
+  background-color: #1d1d1d;
+}
+
+.btn-facebook {
+  background-color: #2d427f;
+}
+
+.btn-twitter {
+  background-color: #0294e4;
+}
+
+@media screen and (max-width: 1230px) {
+  .image-top {
+    height: 300px;
+  }
+
+  .mockup {
+    height: 300px;
+  }
+
+  .form-section h1 {
+    font-size: 30px;
+  }
+
+  input {
+    font-size: 15px;
+  }
+
+  .btn {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .image-top {
+    height: 200px;
+  }
+
+  .mockup {
+    display: none;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  .form-section {
+    padding: 20px 30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-column {
+    padding: 20px 30px;
+    width: 80%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .btn-submit {
+    margin-left: 35px;
+  }
+}

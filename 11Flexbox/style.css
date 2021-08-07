@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: linear-gradient(to right, #8e0e00, #1f1c18);
+}
+
+.bg {
+  height: 100vh;
+  width: 100%;
+}
+
+input {
+  padding: 10px 20px;
+  border: none;
+  font-size: 30px;
+  line-height: 60px;
+}
+
+input[type="submit"] {
+  background-color: #c0392b;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

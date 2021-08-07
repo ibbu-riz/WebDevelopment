@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&display=swap'); */
+
+body {
+  background: linear-gradient(90deg, #e1a2b8 25%, #9f2bc1 75%);
+  /* background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); */
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-top: 20%;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+span {
+  color: #1f1f1f;
+  font-size: 100px;
+  font-weight: 900;
+}
+
+p {
+  text-align: center;
+  margin-top: -30px;
+  font-size: 10px;
+  letter-spacing: 3px;
+  font-family: "Montserrat";
+}
+
+button {
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #1f1f1f;
+  border-radius: 0.6em;
+  color: #1f1f1f;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 1.2em 2.8rem;
+  cursor: grab;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+}
+
+.btn:hover {
+  color: #ffffff;
+  outline: 0;
+}
+
+.lco {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
+
+h2 {
+  display: block;
+  text-align: center;
+}
+
+.footer {
+  font-family: "Montserrat";
+  font-weight: 300;
+  border: #1f1f1f 1px solid;
+  color: #1f1f1f;
+}
+
+.footer:hover {
+  color: #ffffff;
+}
+
+.socialmedia {
+  transition: box-shadow 600ms ease-in-out color 600ms ease-in-out;
+}
+
+.socialmedia:hover {
+  box-shadow: 0 0 30px 30px #1f1f1f inset;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: orange;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  span {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  body {
+    background: crimson;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  span {
+    font-size: 60px;
+  }
+}
